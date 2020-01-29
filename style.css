@@ -1,0 +1,108 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(60,60,60);
+  font-size: 17px;
+  line-height: 20px;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h2 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+a {
+  color: #6B72E1;
+  text-decoration: none;
+}
+
+#introduction a:hover {
+  background-color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.button-blue {
+  background-color: #6772E5;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.header-green {
+  color: #7ECE90;
+}
+
+ul {
+  padding-left: 0px
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-icons {
+  color: rgb(60,60,60,0.1);
+}
+
+.social-icons:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .list-inline > li {
+    display: block;
+  }
+}
